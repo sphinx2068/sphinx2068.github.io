@@ -1,0 +1,1 @@
+<br/><center><font color= #000000> <b>Sphinx</b></font>:<br/>witaj<br/></center><br/><center><font color= #000000> <b>KGK</b></font>:<br/>Świetne pomysły i wykonanie :) <br/></center><br/><center><font color= #000000> <b>Piotr ;) </b></font>:<br/>Działajcie, oby tak dalej hehe! <br/></center>

@@ -1,0 +1,230 @@
+body
+	{
+													/* Background pattern from Subtle Patterns */
+		background-image: url("obrazy/tlo.png");	/* kolor t³a w postaci obrazka */
+		color: #ffffff; 							/* kolor trzcionki bia³y */
+		font size: 20px;							/* rozmiar trzcionk na stronie */
+		font-family: 'Lato', sans-serif;			/* jaka trzcionka google fots */
+		margin: 0 ! important;						/* zero piksei marginesu domyslnego  importatt  dodatek lamiacy domyslny watek marginesu */
+		
+	}
+
+.opakowanie											/* div */
+	{
+		width: 100%;								/* zajmuje ca³osc */
+	}
+	
+.naglowek
+	{
+		width: 100%;
+		padding: 40px 0;							/* odstêp 40 w pionie 0 w poziomie */
+	}
+
+.logo
+	{
+		width: 450px;								/* szerokoœæ 450 pikseli */
+		font-size: 42px;							/* rozmiar trzcionki */		
+		margin-left: auto;							/* prawo lewo wysrodkowanie */
+		margin-right: auto;
+		
+	}
+	
+.nav
+	{
+		width: 100%;								/* zajmuje ca³osc */
+		padding: 10px 0;
+		background-color: #c34f4f;					/* kolor t³a */
+		text-align: center;							/* wysrodkowanie */
+		border-top: 1px solid #751b1b;				/* u gor linia 1 px w tym kolorze */
+		border-bottom: 1px solid #751b1b;			/* u do³u linia 1 px w tym kolorze */
+		
+	}
+.zawartosc
+	{
+		width: 1050px;
+		margin-left: auto;							/* prawo lewo wysrodkowanie */
+		margin-right: auto;
+		text-align: justify;						/* wyjustowany text */
+		padding: 10px;
+	}
+.linki
+	{
+		width: 100%;
+		
+		background-color: #292929;
+		
+	}
+
+.linki a
+	{
+		color: #008080;
+		text-decoration: none;
+		display: block;							/* nie tylkop link ale cal bloczek jest likiem */
+	}
+	
+.kafelki
+	{
+		width: 100%;
+		
+		border-top: 2px solid #000000;
+		border-bottom: 2px solid #000000;
+		text-align: center;	
+		
+	
+	}
+.youtube
+	{
+		width: 24%;	
+		height: 50px;
+		float:left;									/* polozenie po lewej */
+		font-size: 42px;
+		
+		border: 2px solid #000000;
+		margin-left: auto;							/* prawo lewo wysrodkowanie */
+		margin-right: auto;
+	}
+.youtube:hover										/* po najechaniu kursorem */
+	{
+		background-color: #0000FF;
+		border: 2px solid #ffffff;
+	}
+.cda
+	{
+		width: 24%;	
+		height: 50px;				
+		float:left;									/* polozenie po lewej */
+		font-size: 42px;
+		
+		border: 2px solid #000000;
+	}
+.cda:hover										/* po najechaniu kursorem */
+	{
+		background-color: #0000FF;
+		border: 2px solid #ffffff;
+	}
+.alltube
+	{
+		width: 24%;	
+		height: 50px;				
+		float:left;									/* polozenie po lewej */
+		font-size: 42px;
+		
+		border: 2px solid #000000;
+	}
+.alltube:hover										/* po najechaniu kursorem */
+	{
+		background-color: #0000FF;
+		border: 2px solid #ffffff;
+	}
+.allegro
+	{
+		width: 24%;	
+		height: 50px;				
+		float:left;									/* polozenie po lewej */
+		font-size: 42px;
+		
+		border: 2px solid #000000;
+	}
+.allegro:hover										/* po najechaniu kursorem */
+	{
+		background-color: #0000FF;
+		border: 2px solid #ffffff;
+	}
+.stopka
+	{
+		text-align: center;
+		background-color: #222222;
+		padding: 30px;
+		
+	}
+.sticky
+	{
+		width: 100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 100;  /* jaki pryjorytet */
+	}
+
+ol												/* stylizacja lsty numerwaej ol */
+	{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;					/* typ stylizacji listy mamy numerowae non zadne */
+		font-size: 18px;
+		height: 35px;
+		line-height: 200%;
+		display: inline-block;					/* elementy uk³adaja sie w lini */
+	}
+ol a
+	{
+		color: #ffffff;
+		text-decoration: none;				/*usua podkreslene linka */
+		display: block;
+	}
+ol > li										/* LI DZIECKO OL  STYLIZUJEMY TYLKO LI   NALEZ¥Cedo ol*/
+	{
+		float: left;
+		width: 150px;
+		height: 40px;
+		border-right: 2px dashed #751b1d;	/* linia przerywana */
+	}
+ol > li:first-child							/* 1 na liscie li */
+	{
+		border-left: 2px dashed #751b1d;	/* linia przerywana */
+	}
+ol > li:hover
+	{
+		background-color: #cf6969;
+		
+	}
+ol > li:hover > a							/* a jak potomek w liscie link zmiana po najechaniu */
+	{
+		color: #451717;
+	}
+ol > li > ul
+	{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		height: 40px;
+		display: none;						/* ukrywa podlisty */
+	}
+ol > li > ul >li
+	{
+		background-color: #cf6969;
+		position: relative;					/*  do ule na wierzchu bedzie */
+		z-index: 100;
+		border-top: 1px dashed #751b1d;
+	}
+ol > li > ul >li:hover
+	{
+		background-color: #c34f4f;
+		
+	}
+ol > li > ul >li:hover > a
+	{
+		
+		color: #800000;
+	}
+ol > li:hover > ul							/* pokazuje schowane listy */
+	{
+		display: block;
+	}
+
+.pkt
+	{
+		float: left;
+		padding: 10px;
+		
+	}
+.pkt > a > img
+	{
+		width: 500px;
+		height: 400px;
+		
+		
+	}
+
+	
+	
